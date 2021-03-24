@@ -1,0 +1,9 @@
+version: "3.1"
+
+services:
+  # Docker will pull this image if there is no explicit build in the override files
+  drupal:
+    image: apshuk17/custom-drupal:latest
+
+  postgres:
+    image: postgres:10
